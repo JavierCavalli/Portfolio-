@@ -151,7 +151,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0A66C2]">
             <a
               className="flex justify-between items-center w-full text-white"
-              href="/"
+              href="https://www.linkedin.com/in/javier-cavalli-050734228/"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -159,7 +159,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#24292F]">
             <a
               className="flex justify-between items-center w-full text-white"
-              href="/"
+              href="https://github.com/JavierCavalli"
             >
               Github <FaGithub size={30} />
             </a>
@@ -167,9 +167,15 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#EA4335]">
             <a
               className="flex justify-between items-center w-full text-white"
-              href="/"
+              href="javier.cavalli@gmail.com"
             >
-              Email <HiOutlineMail size={30} />
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=javier.cavalli@gmail.com"
+                target="_blank"
+              >
+                Mail
+              </a>{" "}
+              <HiOutlineMail size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
