@@ -152,6 +152,7 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-white"
               href="https://www.linkedin.com/in/javier-cavalli-050734228/"
+              target="_blank"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -160,6 +161,7 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-white"
               href="https://github.com/JavierCavalli"
+              target="_blank"
             >
               Github <FaGithub size={30} />
             </a>
@@ -168,11 +170,9 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-white"
               href="javier.cavalli@gmail.com"
+              target="_blank"
             >
-              <a
-                href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=javier.cavalli@gmail.com"
-                target="_blank"
-              >
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=javier.cavalli@gmail.com">
                 Mail
               </a>{" "}
               <HiOutlineMail size={30} />
@@ -181,7 +181,8 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
             <a
               className="flex justify-between items-center w-full text-white"
-              href="/"
+              href="https://www.docdroid.net/b7lqfCw/cv-resume-pdf"
+              target="_blank"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
