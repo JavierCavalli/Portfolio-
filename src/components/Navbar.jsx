@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#000000] text-[#FFFFFF]">
       <div>
         <a href="/">
-          <img src={Logo} alt="Logo Image" style={{ width: "80px" }} />
+          <img src={Logo} alt="img" style={{ width: "80px" }} />
         </a>
       </div>
 
@@ -153,6 +153,7 @@ const Navbar = () => {
               className="flex justify-between items-center w-full text-white"
               href="https://www.linkedin.com/in/javier-cavalli-050734228/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -162,6 +163,7 @@ const Navbar = () => {
               className="flex justify-between items-center w-full text-white"
               href="https://github.com/JavierCavalli"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Github <FaGithub size={30} />
             </a>
@@ -171,6 +173,7 @@ const Navbar = () => {
               className="flex justify-between items-center w-full text-white"
               href="javier.cavalli@gmail.com"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=javier.cavalli@gmail.com">
                 Mail
@@ -183,6 +186,7 @@ const Navbar = () => {
               className="flex justify-between items-center w-full text-white"
               href="https://www.docdroid.net/b7lqfCw/cv-resume-pdf"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>

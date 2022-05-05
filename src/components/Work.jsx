@@ -30,12 +30,20 @@ const Work = () => {
                 Data App
               </span>
               <div className="pt-8 text-center">
-                <a href="https://merry-cascaron-69cc7f.netlify.app/">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://merry-cascaron-69cc7f.netlify.app/"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/JavierCavalli/react-tw-data-app-main">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/JavierCavalli/react-tw-data-app-main"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -53,12 +61,20 @@ const Work = () => {
                 Dark Theme UI
               </span>
               <div className="pt-8 text-center">
-                <a href="https://spontaneous-travesseiro-fade16.netlify.app/">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://spontaneous-travesseiro-fade16.netlify.app/"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/JavierCavalli/dark-theme-main">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/JavierCavalli/dark-theme-main"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -77,12 +93,20 @@ const Work = () => {
                 Expense Tracker
               </span>
               <div className="pt-8 text-center">
-                <a href="https://aquamarine-nasturtium-4bf446.netlify.app/">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://aquamarine-nasturtium-4bf446.netlify.app/"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/JavierCavalli/expense-tracker-react-main">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/JavierCavalli/expense-tracker-react-main"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -100,12 +124,20 @@ const Work = () => {
                 E-commerce Store
               </span>
               <div className="pt-8 text-center">
-                <a href="https://ecommerce-sanity-eight.vercel.app/">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://ecommerce-sanity-eight.vercel.app/"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/JavierCavalli/ecommerce-sanity">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/JavierCavalli/ecommerce-sanity"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -124,12 +156,20 @@ const Work = () => {
                 Movie/Api App
               </span>
               <div className="pt-8 text-center">
-                <a href="https://fastidious-jelly-05b421.netlify.app/">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://fastidious-jelly-05b421.netlify.app/"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/JavierCavalli/react-movie-main">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/JavierCavalli/react-movie-main"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -147,12 +187,20 @@ const Work = () => {
                 Crypto API LandingPage
               </span>
               <div className="pt-8 text-center">
-                <a href="https://incomparable-crumble-735f3a.netlify.app/">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://incomparable-crumble-735f3a.netlify.app/"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/JavierCavalli/Crypto-landingpage-main">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/JavierCavalli/Crypto-landingpage-main"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
