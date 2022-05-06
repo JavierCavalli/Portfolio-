@@ -184,7 +184,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
             <a
               className="flex justify-between items-center w-full text-white"
-              href="https://www.docdroid.net/b7lqfCw/cv-resume-pdf"
+              href="https://scarlet-mellisent-8.tiiny.site/"
               target="_blank"
               rel="noopener noreferrer"
             >
