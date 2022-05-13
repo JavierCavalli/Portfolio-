@@ -184,7 +184,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
             <a
               className="flex justify-between items-center w-full text-white"
-              href="https://docdro.id/4ajjHmJ"
+              href="https://www.docdroid.net/ajoMEEB/cv-pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
