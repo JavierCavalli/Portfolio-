@@ -5,10 +5,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Built With: 
 
 1. React
-2. useState() hook
-3. React Scroll
-4. TailwindCSS
-5. React Icons
+2. TailwindCSS
+3. React Icons
 
 ## Demo: 
 
