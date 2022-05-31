@@ -1,106 +1,32 @@
-import React, { useEffect } from "react";
-import { AiOutlineMail } from "react-icons/ai";
-import { BsFillPersonLinesFill } from "react-icons/bs";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import ReactTypingEffect from "react-typing-effect";
-import Aos from "aos";
-import "aos/dist/aos.css";
+import React from "react";
+import { HiArrowNarrowRight } from "react-icons/hi";
+import { Link } from "react-scroll";
 
 const Home = () => {
-  useEffect(() => {
-    Aos.init({ duration: 1000 });
-  }, []);
-
   return (
-    <div id="home" className="w-full h-screen text-center">
-      <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
+    <div name="home" className="w-full h-screen bg-[#ffffff]">
+      {/* Container */}
+      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
+        <p className="text-[#000000]">Hi, my name is</p>
+        <h1 className="text-4xl sm:text-7xl font-bold text-[#000000]">
+          Javier Cavalli &
+        </h1>
+        <h2 className="text-4xl sm:text-7xl font-bold text-[#000000]">
+          I'm a Full Stack Developer.
+        </h2>
+        <p className="text-[#000000] py-4 max-w-[700px]">
+          I’m a full-stack developer specializing in building responsive
+          full-stack web applications.
+        </p>
         <div>
-          <h1
-            data-aos="fade-up"
-            data-aos-mirror="false"
-            data-aos-once="false"
-            className="py-4 text-gray-700"
-          >
-            Hi, I&#39;m{" "}
-            <span className="text-[#5651e5] text-4xl sm:text-5xl font-bold">
-              {" "}
-              Javier Cavalli
-            </span>{" "}
-            a
-          </h1>
-          <h1
-            data-aos="fade-up"
-            data-aos-delay="200"
-            className="mb-4 text-gray-700"
-          >
-            <ReactTypingEffect
-              speed={100}
-              eraseSpeed={100}
-              eraseDelay={1000}
-              typingDelay={300}
-              cursor=" "
-              text={["<FullStack Dev/>", "{UX/UI Designer}", "[Coffee, Lover]"]}
-            />
-          </h1>
-          <p
-            data-aos="fade-up"
-            data-aos-delay="500"
-            className="uppercase text-sm tracking-widest text-gray-600 font-bold mt-2"
-          >
-            LETS BUILD SOMETHING TOGETHER
-          </p>
-          <p
-            data-aos="fade-up"
-            data-aos-delay="700"
-            className="py-4 text-gray-600 max-w-[70%] m-auto"
-          >
-            I’m a Freelance Web Designer and Developer based in Argentina.
-            Experienced in designing and developing projects using MERN Stack. I
-            enjoy building everything from small business sites to rich
-            interactive web apps.
-          </p>
-          <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <div
-              data-aos="fade-up"
-              data-aos-delay="600"
-              data-aos-duration="2000"
-              className="animation"
-            >
-              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
-                <FaLinkedinIn />
-              </div>
-            </div>
-            <div
-              data-aos="fade-up"
-              data-aos-delay="800"
-              data-aos-duration="2000"
-              className="animation"
-            >
-              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
-                <FaGithub />
-              </div>
-            </div>
-            <div
-              data-aos="fade-up"
-              data-aos-delay="1000"
-              data-aos-duration="2000"
-              className="animation"
-            >
-              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
-                <AiOutlineMail />
-              </div>
-            </div>
-            <div
-              data-aos="fade-up"
-              data-aos-delay="1200"
-              data-aos-duration="2000"
-              className="animation"
-            >
-              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
-                <BsFillPersonLinesFill />
-              </div>
-            </div>
-          </div>
+          <Link to="work" smooth={true} duration={1000}>
+            <button className="text-black group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#0A66C2] hover:border-black hover:-translate-y-0.5 transition">
+              View Work
+              <span className="group-hover:rotate-90 duration-300">
+                <HiArrowNarrowRight className="ml-3" />
+              </span>
+            </button>
+          </Link>
         </div>
       </div>
     </div>
