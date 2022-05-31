@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#ffffff] text-[#000000] font-semibold">
       <div>
         <a href="/">
-          <img src={Logo} alt="img" style={{ width: "80px" }} />
+          <img src={Logo} alt="img" style={{ width: "50px" }} />
         </a>
       </div>
 
