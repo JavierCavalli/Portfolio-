@@ -1,29 +1,62 @@
-import React from "react";
+import React, { useEffect } from "react";
+import laptop from "../assets/laptop.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const About = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
-    <div name="about" className="w-full h-screen bg-[#0C0C0C] text-[#f7f7f7]">
-      <div className="flex flex-col justify-center items-center w-full h-full">
-        <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
-          <div className="sm:text-right pb-8 pl-4">
-            <p className="text-4xl font-bold inline border-b-4 border-[#f7f7f7]">
-              About
-            </p>
-          </div>
-          <div></div>
+    <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
+      <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
+        <div className="col-span-2">
+          <p
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            className="uppercase tracking-widest text-[#5651e5] font-bold "
+          >
+            About
+          </p>
+          <h2
+            data-aos="fade-right"
+            data-aos-delay="200"
+            data-aos-duration="1000"
+            className="py-4 text-2xl sm:text-3xl"
+          >
+            About myself:
+          </h2>
+          <p
+            data-aos="fade-right"
+            data-aos-delay="400"
+            data-aos-duration="1000"
+            className="text-gray-600"
+          >
+            I began my learning in early 2019, soon i became engaged with
+            programming and after learning the basics i decided to learn my
+            first stack: React, Node, Express, and MongoDB. While taking
+            certifications and courses (udemy, freecodecamp, cs50) i made
+            several projects and kept on learning different technologies. As of
+            now i've over 2 years of experience as a fullstack developer with a
+            strong focus on the front-end, ready to make your ideas a reality.
+          </p>
+          <p
+            data-aos="fade-right"
+            data-aos-delay="400"
+            data-aos-duration="1000"
+            className="py-2 text-gray-600 underline cursor-pointer"
+          >
+            Check out some of my latest projects.
+          </p>
         </div>
-        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-          <div className="sm:text-right text-4xl font-bold">
-            <p>Hi. I'm Javier, nice to meet you, a little bit about myself.</p>
-          </div>
-          <div>
-            <p>
-              Freelance Web Designer and Developer based in Argentina.
-              Experienced in designing and developing projects using MERN Stack.
-              I enjoy building everything from small business sites to rich
-              interactive web apps.
-            </p>
-          </div>
+        <div
+          data-aos="fade-left"
+          data-aos-delay="400"
+          data-aos-duration="1000"
+          className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300"
+        >
+          <img className="rounded-xl" src={laptop} alt="/" />
         </div>
       </div>
     </div>

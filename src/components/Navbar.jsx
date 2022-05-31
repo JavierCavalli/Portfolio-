@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import Logo from "../assets/logo.png";
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -10,18 +8,22 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#000000] text-[#FFFFFF]">
+    <div
+      data-aos="fade-down"
+      data-aos-duration="1500"
+      className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#ffffff] text-[#0f0e0e]"
+    >
       <div>
         <a href="/">
-          <img src={Logo} alt="img" style={{ width: "80px" }} />
+          <img src={Logo} alt="img" style={{ width: "50px" }} />
         </a>
       </div>
 
       {/* Menu */}
-      <ul className="hidden md:flex">
+      <ul className="hidden md:flex font-semibold">
         <li>
           <Link
-            className="hover:text-[#4267B2] ease-in-out duration-200"
+            className="hover:text-[#4267B2] ease-in-out duration-200 "
             to="home"
             smooth={true}
             duration={500}
@@ -81,7 +83,7 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0C0C0C] flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen bg-[#ffffff] flex flex-col justify-center items-center"
         }
       >
         <li className="py-6 text-4xl">
@@ -144,55 +146,6 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
-
-      {/* Social Icons*/}
-      <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
-        <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0A66C2]">
-            <a
-              className="flex justify-between items-center w-full text-white"
-              href="https://www.linkedin.com/in/javier-cavalli-050734228/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Linkedin <FaLinkedin size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#24292F]">
-            <a
-              className="flex justify-between items-center w-full text-white"
-              href="https://github.com/JavierCavalli"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Github <FaGithub size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#EA4335]">
-            <a
-              className="flex justify-between items-center w-full text-white"
-              href="javier.cavalli@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=javier.cavalli@gmail.com">
-                Mail
-              </a>{" "}
-              <HiOutlineMail size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
-            <a
-              className="flex justify-between items-center w-full text-white"
-              href="https://www.docdroid.net/ajoMEEB/cv-pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Resume <BsFillPersonLinesFill size={30} />
-            </a>
-          </li>
-        </ul>
-      </div>
     </div>
   );
 };
