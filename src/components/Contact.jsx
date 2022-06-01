@@ -47,14 +47,14 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className="py-2">Get In Touch</h2>
-                <p className="font-semibold">Email: javier.cavalli@gmail.com</p>
+                <h2 className="py-2">Email me at:</h2>
+                <p className="font-semibold">javier.cavalli@gmail.com</p>
                 <p className="py-4 font-semibold">
                   I am available for freelance or full-time positions.
                 </p>
               </div>
               <div>
-                <p className="font-semibold pt-15">Find me here!</p>
+                <p className="font-semibold pt-15">You can also find me here</p>
                 <div className="flex items-center justify-between py-4">
                   <a
                     href="https://www.linkedin.com/in/javier-cavalli-050734228/"
@@ -158,16 +158,16 @@ const Contact = () => {
           </div>
         </div>
         <div className="flex justify-center py-12">
-          <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
-            <Link
-              className="hover:text-[#4267B2] ease-in-out duration-200"
-              to="home"
-              smooth={true}
-              duration={300}
-            >
+          <Link
+            className="hover:text-[#4267B2] ease-in-out duration-200"
+            to="home"
+            smooth={true}
+            duration={300}
+          >
+            <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
               <HiOutlineChevronDoubleUp className="text-[#5651e5]" size={20} />
-            </Link>
-          </div>
+            </div>
+          </Link>
         </div>
       </div>
     </div>
