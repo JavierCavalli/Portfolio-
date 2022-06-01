@@ -170,7 +170,7 @@ const Contact = () => {
             className="hover:text-[#4267B2] ease-in-out duration-200"
             to="home"
             smooth={true}
-            duration={1000}
+            duration={500}
           >
             <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
               <HiOutlineChevronDoubleUp className="text-[#5651e5]" size={20} />
