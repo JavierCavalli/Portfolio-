@@ -235,7 +235,7 @@ const Work = () => {
           <div
             data-aos="fade-up"
             data-aos-duration="1800"
-            data-aos-delay="600"
+            data-aos-delay="800"
             className="animation"
           >
             <div
