@@ -41,14 +41,6 @@ const About = () => {
             now i've over 2 years of experience as a fullstack developer with a
             strong focus on the front-end, ready to make your ideas a reality.
           </p>
-          <p
-            data-aos="fade-right"
-            data-aos-delay="400"
-            data-aos-duration="1000"
-            className="py-2 text-gray-600 underline cursor-pointer"
-          >
-            Check out some of my latest projects.
-          </p>
         </div>
         <div
           data-aos="fade-left"
