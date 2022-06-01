@@ -22,10 +22,21 @@ const Contact = () => {
         >
           Contact
         </p>
-        <h2 className="py-4">Get In Touch</h2>
+        <h2
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+          className="py-4"
+        >
+          Get In Touch
+        </h2>
         <div className="grid lg:grid-cols-5 gap-8">
           {/* left */}
-          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4 flex justify-center items-center">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="2000"
+            className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4 flex justify-center items-center"
+          >
             <div className="lg:p-4 h-full ">
               <div>
                 <img
@@ -44,17 +55,41 @@ const Contact = () => {
               <div>
                 <p className="font-semibold pt-15">Find me here!</p>
                 <div className="flex items-center justify-between py-4">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3.5 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaLinkedinIn />
+                  <div className="hover:text-[#0e76a8] rounded-full shadow-lg shadow-gray-400 p-3.5 cursor-pointer hover:scale-105 duration-300">
+                    <a
+                      href="https://www.linkedin.com/in/javier-cavalli-050734228/"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <FaLinkedinIn />
+                    </a>
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3.5 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaGithub />
+                  <div className="hover:text-[#9b59b6] rounded-full shadow-lg shadow-gray-400 p-3.5 cursor-pointer hover:scale-105 duration-300">
+                    <a
+                      href="https://github.com/JavierCavalli"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <FaGithub />
+                    </a>
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3.5 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <AiOutlineMail />
+                  <div className="hover:text-[#2c8951] rounded-full shadow-lg shadow-gray-400 p-3.5 cursor-pointer hover:scale-105 duration-300">
+                    <a
+                      href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=javier.cavalli@gmail.com"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <AiOutlineMail />
+                    </a>
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3.5 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <BsFillPersonLinesFill />
+                  <div className="hover:text-[#bd3a3a] rounded-full shadow-lg shadow-gray-400 p-3.5 cursor-pointer hover:scale-105 duration-300">
+                    <a
+                      href="https://www.docdroid.net/ajoMEEB/cv-pdf"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <BsFillPersonLinesFill />
+                    </a>
                   </div>
                 </div>
               </div>
@@ -62,7 +97,11 @@ const Contact = () => {
           </div>
 
           {/* right */}
-          <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-6 flex justify-center items-center">
+          <div
+            data-aos="fade-left"
+            data-aos-duration="2000"
+            className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-6 flex justify-center items-center"
+          >
             <div className="p-4 font-semibold">
               <form
                 method="POST"
