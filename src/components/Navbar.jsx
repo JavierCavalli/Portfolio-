@@ -11,7 +11,7 @@ const Navbar = () => {
     <div
       data-aos="fade-down"
       data-aos-duration="1500"
-      className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#ffffff] text-[#0f0e0e] shadow-md"
+      className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#ffffff] text-[#0f0e0e] shadow-md z-100"
     >
       <div>
         <a href="/">
@@ -74,7 +74,7 @@ const Navbar = () => {
       </ul>
 
       {/* Hamburger */}
-      <div onClick={handleClick} className="md:hidden z-10">
+      <div onClick={handleClick} className="md:hidden">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
