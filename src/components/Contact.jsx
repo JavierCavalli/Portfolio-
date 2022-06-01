@@ -104,12 +104,12 @@ const Contact = () => {
             className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-6 flex justify-center items-center"
           >
             <div className="p-4 font-semibold">
-              <form
-                method="POST"
-                action="https://getform.io/f/4c86c42d-baf6-4f48-a6ed-f5c544caea0c"
-                className="flex flex-col max-w-[600px] w-full"
-              >
-                <div>
+              <div>
+                <form
+                  method="POST"
+                  action="https://getform.io/f/4c86c42d-baf6-4f48-a6ed-f5c544caea0c"
+                  className="flex flex-col max-w-[600px] w-full"
+                >
                   <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                     <div className="flex flex-col">
                       <label className="uppercase text-sm py-2">Name</label>
@@ -160,8 +160,8 @@ const Contact = () => {
                       Send Message
                     </button>
                   </div>
-                </div>
-              </form>
+                </form>
+              </div>
             </div>
           </div>
         </div>
