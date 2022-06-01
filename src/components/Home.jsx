@@ -39,7 +39,11 @@ const Home = () => {
               eraseDelay={1000}
               typingDelay={300}
               cursor=" "
-              text={["<FullStack Dev/>", "{UX/UI Designer}", "[Coffee, Lover]"]}
+              text={[
+                "<FullStack Dev />",
+                "{UX/UI Designer}",
+                "[Coffee, Lover]",
+              ]}
             />
           </h1>
           <p
