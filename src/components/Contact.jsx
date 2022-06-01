@@ -106,52 +106,60 @@ const Contact = () => {
             <div className="p-4 font-semibold">
               <form
                 method="POST"
-                action="https://getform.io/f/2501a2a8-46d7-489b-87a6-b8db98313f48"
+                action="https://getform.io/f/4c86c42d-baf6-4f48-a6ed-f5c544caea0c"
                 className="flex flex-col max-w-[600px] w-full"
               >
-                <div className="grid md:grid-cols-2 gap-4 w-full py-2">
-                  <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2">Name</label>
+                <div>
+                  <div className="grid md:grid-cols-2 gap-4 w-full py-2">
+                    <div className="flex flex-col">
+                      <label className="uppercase text-sm py-2">Name</label>
+                      <input
+                        className="border-2 rounded-lg p-3 flex border-gray-300"
+                        type="text"
+                        name="name"
+                      />
+                    </div>
+                    <div className="flex flex-col">
+                      <label className="uppercase text-sm py-2">
+                        Phone Number
+                      </label>
+                      <input
+                        className="border-2 rounded-lg p-3 flex border-gray-300"
+                        type="text"
+                        name="number"
+                      />
+                    </div>
+                  </div>
+                  <div className="flex flex-col py-2">
+                    <label className="uppercase text-sm py-2">Email</label>
+                    <input
+                      className="border-2 rounded-lg p-3 flex border-gray-300"
+                      type="email"
+                      name="email"
+                    />
+                  </div>
+                  <div className="flex flex-col py-2">
+                    <label className="uppercase text-sm py-2">Subject</label>
                     <input
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
+                      name="subject"
                     />
                   </div>
-                  <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2">
-                      Phone Number
-                    </label>
-                    <input
-                      className="border-2 rounded-lg p-3 flex border-gray-300"
+                  <div className="flex flex-col py-2">
+                    <label className="uppercase text-sm py-2">Message</label>
+                    <textarea
+                      className="border-2 rounded-lg p-3 border-gray-300"
+                      rows="3"
                       type="text"
-                    />
+                      name="message"
+                    ></textarea>
                   </div>
-                </div>
-                <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">Email</label>
-                  <input
-                    className="border-2 rounded-lg p-3 flex border-gray-300"
-                    type="email"
-                  />
-                </div>
-                <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">Subject</label>
-                  <input
-                    className="border-2 rounded-lg p-3 flex border-gray-300"
-                    type="text"
-                  />
-                </div>
-                <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">Message</label>
-                  <textarea
-                    className="border-2 rounded-lg p-3 border-gray-300"
-                    rows="3"
-                  ></textarea>
-                </div>
-                <div className="justify-center items-center mx-auto pt-2">
-                  <button className="transition ease-in-out hover:-translate-y-1 hover:scale-105 bg-[#000000] hover:bg-[#5651e5] text-center rounded-lg px-2 py-3 m-2 text-white font-bold text-lg">
-                    Send Message
-                  </button>
+                  <div className="justify-center items-center mx-auto pt-2">
+                    <button className="transition ease-in-out hover:-translate-y-1 hover:scale-105 bg-[#000000] hover:bg-[#5651e5] text-center rounded-lg px-2 py-3 m-2 text-white font-bold text-lg">
+                      Send Message
+                    </button>
+                  </div>
                 </div>
               </form>
             </div>
