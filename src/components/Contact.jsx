@@ -6,6 +6,7 @@ import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import contact from "../assets/contact.svg";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-scroll";
 
 const Contact = () => {
   useEffect(() => {
@@ -17,14 +18,14 @@ const Contact = () => {
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full ">
         <p
           data-aos="fade-left"
-          data-aos-duration="1000"
+          data-aos-duration="2000"
           className="tracking-widest uppercase text-[#5651e5] font-semibold text-xl "
         >
           Contact
         </p>
         <h2
           data-aos="fade-left"
-          data-aos-duration="1000"
+          data-aos-duration="2000"
           data-aos-delay="200"
           className="py-4"
         >
@@ -34,7 +35,7 @@ const Contact = () => {
           {/* left */}
           <div
             data-aos="fade-right"
-            data-aos-duration="2000"
+            data-aos-duration="2500"
             className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4 flex justify-center items-center"
           >
             <div className="lg:p-4 h-full ">
@@ -55,42 +56,42 @@ const Contact = () => {
               <div>
                 <p className="font-semibold pt-15">Find me here!</p>
                 <div className="flex items-center justify-between py-4">
-                  <div className="hover:text-[#0e76a8] rounded-full shadow-lg shadow-gray-400 p-3.5 cursor-pointer hover:scale-105 duration-300">
-                    <a
-                      href="https://www.linkedin.com/in/javier-cavalli-050734228/"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
+                  <a
+                    href="https://www.linkedin.com/in/javier-cavalli-050734228/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <div className="hover:text-[#0e76a8] rounded-full shadow-lg shadow-gray-400 p-3.5 cursor-pointer hover:scale-105 duration-300">
                       <FaLinkedinIn />
-                    </a>
-                  </div>
-                  <div className="hover:text-[#9b59b6] rounded-full shadow-lg shadow-gray-400 p-3.5 cursor-pointer hover:scale-105 duration-300">
-                    <a
-                      href="https://github.com/JavierCavalli"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
+                    </div>
+                  </a>
+                  <a
+                    href="https://github.com/JavierCavalli"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <div className="hover:text-[#9b59b6] rounded-full shadow-lg shadow-gray-400 p-3.5 cursor-pointer hover:scale-105 duration-300">
                       <FaGithub />
-                    </a>
-                  </div>
-                  <div className="hover:text-[#2c8951] rounded-full shadow-lg shadow-gray-400 p-3.5 cursor-pointer hover:scale-105 duration-300">
-                    <a
-                      href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=javier.cavalli@gmail.com"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
+                    </div>
+                  </a>
+                  <a
+                    href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=javier.cavalli@gmail.com"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <div className="hover:text-[#2c8951] rounded-full shadow-lg shadow-gray-400 p-3.5 cursor-pointer hover:scale-105 duration-300">
                       <AiOutlineMail />
-                    </a>
-                  </div>
-                  <div className="hover:text-[#bd3a3a] rounded-full shadow-lg shadow-gray-400 p-3.5 cursor-pointer hover:scale-105 duration-300">
-                    <a
-                      href="https://www.docdroid.net/ajoMEEB/cv-pdf"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
+                    </div>
+                  </a>
+                  <a
+                    href="https://www.docdroid.net/ajoMEEB/cv-pdf"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <div className="hover:text-[#bd3a3a] rounded-full shadow-lg shadow-gray-400 p-3.5 cursor-pointer hover:scale-105 duration-300">
                       <BsFillPersonLinesFill />
-                    </a>
-                  </div>
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
@@ -99,7 +100,7 @@ const Contact = () => {
           {/* right */}
           <div
             data-aos="fade-left"
-            data-aos-duration="2000"
+            data-aos-duration="2500"
             className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-6 flex justify-center items-center"
           >
             <div className="p-4 font-semibold">
@@ -158,7 +159,14 @@ const Contact = () => {
         </div>
         <div className="flex justify-center py-12">
           <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
-            <HiOutlineChevronDoubleUp className="text-[#5651e5]" size={30} />
+            <Link
+              className="hover:text-[#4267B2] ease-in-out duration-200"
+              to="home"
+              smooth={true}
+              duration={300}
+            >
+              <HiOutlineChevronDoubleUp className="text-[#5651e5]" size={20} />
+            </Link>
           </div>
         </div>
       </div>

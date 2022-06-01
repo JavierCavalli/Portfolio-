@@ -66,9 +66,15 @@ const Home = () => {
               data-aos-duration="2000"
               className="animation"
             >
-              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
-                <FaLinkedinIn />
-              </div>
+              <a
+                href="https://www.linkedin.com/in/javier-cavalli-050734228/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <div className="hover:text-[#0e76a8] rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <FaLinkedinIn />
+                </div>
+              </a>
             </div>
             <div
               data-aos="fade-up"
@@ -76,9 +82,15 @@ const Home = () => {
               data-aos-duration="2000"
               className="animation"
             >
-              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
-                <FaGithub />
-              </div>
+              <a
+                href="https://github.com/JavierCavalli"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <div className="rounded-full hover:text-[#9b59b6] shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <FaGithub />
+                </div>
+              </a>
             </div>
             <div
               data-aos="fade-up"
@@ -86,9 +98,15 @@ const Home = () => {
               data-aos-duration="2000"
               className="animation"
             >
-              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
-                <AiOutlineMail />
-              </div>
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=javier.cavalli@gmail.com"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <div className="rounded-full hover:text-[#2c8951] shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <AiOutlineMail />
+                </div>
+              </a>
             </div>
             <div
               data-aos="fade-up"
@@ -96,9 +114,15 @@ const Home = () => {
               data-aos-duration="2000"
               className="animation"
             >
-              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
-                <BsFillPersonLinesFill />
-              </div>
+              <a
+                href="https://www.docdroid.net/ajoMEEB/cv-pdf"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <div className="rounded-full hover:text-[#bd3a3a] shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <BsFillPersonLinesFill />
+                </div>
+              </a>
             </div>
           </div>
         </div>

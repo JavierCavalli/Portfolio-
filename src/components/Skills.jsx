@@ -36,7 +36,7 @@ const Skills = () => {
             data-aos-duration="1000"
             className="py-4 font-semibold"
           >
-            These are the technologies I've worked with:
+            These are some technologies I've worked with:
           </p>
         </div>
 

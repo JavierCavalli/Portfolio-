@@ -11,7 +11,7 @@ const Navbar = () => {
     <div
       data-aos="fade-down"
       data-aos-duration="1500"
-      className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#ffffff] text-[#0f0e0e]"
+      className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#ffffff] text-[#0f0e0e] shadow-md"
     >
       <div>
         <a href="/">
@@ -26,7 +26,7 @@ const Navbar = () => {
             className="hover:text-[#4267B2] ease-in-out duration-200 "
             to="home"
             smooth={true}
-            duration={500}
+            duration={300}
           >
             Home
           </Link>
@@ -36,7 +36,7 @@ const Navbar = () => {
             className="hover:text-[#4267B2] ease-in-out duration-200"
             to="about"
             smooth={true}
-            duration={500}
+            duration={300}
           >
             About
           </Link>
@@ -46,7 +46,7 @@ const Navbar = () => {
             className="hover:text-[#4267B2] ease-in-out duration-200"
             to="skills"
             smooth={true}
-            duration={500}
+            duration={300}
           >
             Skills
           </Link>
@@ -56,7 +56,7 @@ const Navbar = () => {
             className="hover:text-[#4267B2] ease-in-out duration-200"
             to="work"
             smooth={true}
-            duration={500}
+            duration={300}
           >
             Work
           </Link>
@@ -66,7 +66,7 @@ const Navbar = () => {
             className="hover:text-[#4267B2] ease-in-out duration-200"
             to="contact"
             smooth={true}
-            duration={500}
+            duration={300}
           >
             Contact
           </Link>
