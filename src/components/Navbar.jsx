@@ -15,7 +15,7 @@ const Navbar = () => {
     >
       <div>
         <a href="/">
-          <img src={Logo} alt="img" style={{ width: "50px" }} />
+          <img src={Logo} alt="img" style={{ width: "100px" }} />
         </a>
       </div>
 

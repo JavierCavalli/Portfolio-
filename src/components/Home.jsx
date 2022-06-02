@@ -26,7 +26,6 @@ const Home = () => {
               {" "}
               Javier Cavalli
             </span>{" "}
-            a
           </h1>
           <h1
             data-aos="fade-up"
@@ -75,7 +74,7 @@ const Home = () => {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <div className="hover:text-[#0e76a8] rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
+                <div className="hover:text-[#0e76a8] rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
                   <FaLinkedinIn />
                 </div>
               </a>
@@ -91,7 +90,7 @@ const Home = () => {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <div className="rounded-full hover:text-[#9b59b6] shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
+                <div className="rounded-full hover:text-[#9b59b6] shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
                   <FaGithub />
                 </div>
               </a>
@@ -107,7 +106,7 @@ const Home = () => {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <div className="rounded-full hover:text-[#2c8951] shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
+                <div className="rounded-full hover:text-[#2c8951] shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
                   <AiOutlineMail />
                 </div>
               </a>
@@ -123,7 +122,7 @@ const Home = () => {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <div className="rounded-full hover:text-[#bd3a3a] shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
+                <div className="rounded-full hover:text-[#bd3a3a] shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
                   <BsFillPersonLinesFill />
                 </div>
               </a>
