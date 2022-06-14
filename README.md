@@ -13,7 +13,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 https://portfolio-rosy-phi-78.vercel.app/
 
-![image](https://i.ibb.co/k2h9qD5/portfolio.png)
+
+
+![image](https://i.ibb.co/QJ2f6CF/newportfolio.png)
 
 ## Available Scripts
 
