@@ -16,14 +16,14 @@ const Work = () => {
   return (
     <div
       name="work"
-      className="w-full md:h-[40rem] text-[#5651E5] bg-[#ffffff]"
+      className="w-full xl:h-[50rem] 2xl:h-[40rem] text-[#5651E5] bg-[#ffffff]"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div
           data-aos="fade-right"
           data-aso-delay="200"
           data-aos-duration="1500"
-          className="pb-8"
+          className="pb-8 lg:mt-4"
         >
           <p className="text-4xl font-bold inline border-b-4 border-[#FFFFFF]">
             Work
