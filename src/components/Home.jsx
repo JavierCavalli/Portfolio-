@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
-        <div className="2xl:mb-28 xl:mt-16 mt-10">
+        <div className="2xl:mb-28 xl:mt-16 mt-4">
           <h1
             data-aos="fade-up"
             data-aos-mirror="false"
