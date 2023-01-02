@@ -5,16 +5,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Built With: 
 
 1. React
-2. useState() hook
 3. React Scroll
 4. TailwindCSS
 5. React Icons
 
 ## Demo: 
 
-https://cool-heliotrope-c3a7e0.netlify.app/
+https://portfolio-rosy-phi-78.vercel.app/
 
-![image](https://i.ibb.co/k2h9qD5/portfolio.png)
+
+
+![image](https://i.ibb.co/QJ2f6CF/newportfolio.png)
 
 ## Available Scripts
 
