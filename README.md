@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Portfolio (viejo)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este fue el primer portfolio que hice en react con tailwind.
 
 ## Built With: 
 
