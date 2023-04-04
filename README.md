@@ -1,4 +1,4 @@
-# Portfolio (viejo)
+# Portfolio (deprecado)
 
 Este fue el primer portfolio que hice en react con tailwind.
 
